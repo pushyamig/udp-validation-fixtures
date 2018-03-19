@@ -1,8 +1,8 @@
 # udp-validation-fixtures
 
 ### Lecture Capture testing:
-This repo hold the JSON fixtures used in testing UDP, the test cases are described in the [Sheets](https://docs.google.com/spreadsheets/d/1XGj76VRC1t2NH3LeA60U2rHqogqx_CIy1KAL48Cv5NQ/edit#gid=0). Here is the work flow 
-LC gold and silver tier events will end up in same dataset in BigQuery. In general UDP promises to have events that belong to a particular edApp will end up as seperate Dataset in BQ. 
+This repo hold the JSON fixtures used in testing UDP, the test cases are described in the [Sheets](https://docs.google.com/spreadsheets/d/1XGj76VRC1t2NH3LeA60U2rHqogqx_CIy1KAL48Cv5NQ/edit#gid=0). 
+In general UDP promises to have events that belong to a particular `edApp` will have a separate Dataset in BQ. 
 ```
 if(gold-tier LC):
    store in raw;
